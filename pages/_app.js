@@ -3,7 +3,7 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 
 const theme = {
-  primaryColor: 'green',
+  primaryColor: '#000',
 }
 
 export default class App extends NextApp {

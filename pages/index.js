@@ -1,13 +1,10 @@
 import React from 'react';
-import { Page } from '../ui/Page';
 import { Typography } from '../ui/Typography';
 
 const Index = function() {
   return (
-    <Page>
-      <Typography>welcome home</Typography>      
-    </Page>
-    );
+    <Typography>welcome home</Typography>      
+  );
 }
 
 export default Index;

@@ -1,10 +1,11 @@
 import React from 'react';
 import { Page } from '../ui/Page';
+import { Typography } from '../ui/Typography';
 
 const Index = function() {
   return (
     <Page>
-      <h1>welcome home</h1>
+      <Typography>welcome home</Typography>      
     </Page>
     );
 }

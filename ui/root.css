@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url('/fonts/spartan-v1-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/fonts/spartan-v1-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+:root {
+  /* color */
+  --black: #000000;
+  --wood: #d2a761;
+  --forest-green: #758a18;
+  --white: $ffffff;
+  --silver: #dcdcdc;
+
+  /* semantic usages */
+  --bg: var(--black);
+  --type: var(--silver);
+  --primary: var(--forest-green);
+}
+
+body {
+  background-color: var(--bg);
+  margin: 0;
+  min-height: 100vh;
+  min-height: -webkit-fill-available; /* iOS Safari "fix" */
+}

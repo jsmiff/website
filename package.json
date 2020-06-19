@@ -1,5 +1,5 @@
 {
-  "name": "next-playground",
+  "name": "website",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "export": "npm run build && next export",
     "lint": "eslint '*/**/*.{js,jsx,ts,tsx}' --quiet --fix"
   },
-  "author": "",
+  "author": "Jason Smith",
   "license": "ISC",
   "dependencies": {
     "next": "^9.3.2",

@@ -11,6 +11,12 @@ const StyledTypography = styled.p`
   color: var(--type);
 `;
 
-export const Type = ({ children, as }) => {
+interface TypeProps {
+  children: React.ReactNode;
+  as?: string;
+}
+
+export const Type = (props: TypeProps): React.ReactElement => {
+  const { as, children } = props;
   return <StyledTypography as={as}>{children}</StyledTypography>;
 };
